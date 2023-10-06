@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3</title>
+</head>
+<h1>Registro de usuario</h1>
+<p>Completa el siguiente formulario para registrarte en esta pagina web</p>
+<body>
+  <h2>Datos Personales</h2>
+  <form>
+  <div>
+    <label for="name">Nombre:</label>
+        <input type="text" id="name">
+</div>
+<div>
+    <label for="surname">Apellidos:</label>
+    <input type="text" id="surname">
+</div>
+<div>
+Genero:
+<input type="radio" name="gender" value="masculino" >
+<label>Masculino</label>
+    
+<input type="radio" name="gender" value="femenino">
+<label>Femenino</label>
+</div>
+<div>
+  Fecha de Nacimiento
+  <input type="datetime-local">
+</div>
+
+<br>
+<h2>Datos de usuario:</h2>
+<div>
+
+<label for="">Nick:</label>
+<input type="text" id="Nick" placeholder="Escribe el Nick que quieres tener" >
+</div>
+<div>
+  <label>Sube tu Avatar</label>
+  <input type="file">
+
+<div>
+  <label> Email:
+      <input type="email" placeholder="xxx@xx.xx">
+  </label>
+</div>
+  <div>
+    <label for="name">Contraseña:</label>
+        <input type="text" id="Contraseña">
+        <meter id="barra" min="0" max="20" value="10" optimum="10">
+        </meter>
+</div>
+<br>
+<div>
+  <label>
+    <input type="checkbox" name="terminos-condiciones" id="condiciones-legales">
+    Acepto las <b>condiciones legales.</b>
+  </label>
+</div>
+</form>  
+    
+</body>
+</html>
